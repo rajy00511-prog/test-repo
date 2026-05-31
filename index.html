@@ -1,10 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Webpage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            max-width: 400px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #00f2fe;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background: #00f2fe;
+            color: #1e3c72;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: white;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Mera pehla GitHub project live hone wala hai.</p>
+
+    <div class="card">
+        <h1>Welcome To My Space! 🚀</h1>
+        <p>Hi, Main Raj hoon. Yeh meri pehli fully custom-designed website hai jise maine GitHub Pages par host kiya hai.</p>
+        <a href="#" class="btn">Explore More</a>
+    </div>
+
 </body>
 </html>
+
